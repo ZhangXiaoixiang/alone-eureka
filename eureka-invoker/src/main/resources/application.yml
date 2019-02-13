@@ -1,0 +1,14 @@
+#调用者端口
+server:
+  port: 9000
+#  调用者应用的名称
+spring:
+  application:
+    name: first-service-invoker
+#调用者的实例主机
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

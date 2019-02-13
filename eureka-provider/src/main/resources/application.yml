@@ -1,0 +1,11 @@
+#服务名称
+spring:
+  application:
+    name: first-service-provider
+#    实例的主机
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
